@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lunasima", sans-serif;
+    color: rgb(253, 252, 252);
+}
+
+body {
+    border: 20px solid rgb(43, 129, 172, 1);
+    background-color: rgb(51, 153, 204, 1);
+    height: 100%;
+    width: 100%;
+}
+
+.heading {
+    font-size: 21px;
+    line-height: 24.61px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+/* .heading::after {
+    content: "";
+} */
+
+.cities-section {
+    margin-top: 35px;
+}
+
+.cities {
+    list-style: none;
+    text-align: center;
+    font-size: 0;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+.cities li {
+    display: inline-block;
+    /* width: 50%; */
+    /* margin: 5px 0; */
+    font-size: 22px;
+    line-height: 25.78px;
+    height: 147px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.lisabon,
+.francisco {
+    width: 50%;
+}
+
+.sydney {
+    width: 100%;
+}
+
+.city {
+    width: 25%;
+}
+
+.lisabon {
+    background-color:  hsla(200, 60%, 62%, 1);
+}
+
+.lisabon:hover {
+    background-color:  hsla(200, 60%, 50%, 1); 
+}
+
+.paris {
+    background-color: hsla(180, 60%, 62%, 1);
+}
+
+.paris:hover {
+    background-color: hsla(180, 60%, 50%, 1);
+}
+
+.belgrade {
+    background-color: hsla(300, 20%, 62%, 1);
+}
+
+.belgrade:hover {
+    background-color: hsla(300, 20%, 50%, 1);
+
+}
+
+.venice {
+    background-color: hsla(0, 50%, 62%, 1);
+}
+
+.venice:hover {
+    background: hsla(0, 50%, 50%, 1);
+
+}
+
+.avive {
+    background-color:  hsla(11, 72%, 62%, 1);
+}
+
+.avive:hover {
+    background-color: hsla(11, 72%, 50%, 1);
+
+}
+
+.cair {
+    background-color: hsla(40, 100%, 70%, 1);
+}
+
+.cair:hover {
+    background-color: hsla(40, 100%, 60%, 1);
+}
+
+.york {
+    background-color: hsla(120, 33%, 70%, 1);
+}
+
+.york:hover {
+    background-color: hsla(120, 33%, 58%, 1);
+}
+
+.dehli {
+    background-color: hsla(180, 20%, 50%, 1);
+}
+
+.dehli:hover {
+    background-color: hsla(180, 20%, 38%, 1);
+}
+
+.francisco {
+    background-color: hsla(330, 50%, 60%, 1);
+}
+
+.francisco:hover {
+    background-color: hsla(330, 50%, 48%, 1);
+}
+
+.tokyo {
+    background-color:  hsla(150, 50%, 40%, 1);
+}
+
+.tokyo:hover {
+    background-color:  hsla(150, 50%, 28%, 1);
+}
+
+.sydney {
+    background-color: hsla(240, 20%, 62%, 1);
+}
+
+.sydney:hover {
+    background-color: hsla(240, 20%, 50%, 1);
+}
+
+.text {
+    margin-left: 150px;
+    font-size: 16px;
+    line-height: 18.75px;
+    margin-top: 35px;
+    margin-bottom: 119px;
+}
