@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Lunasima", sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(253, 252, 252);
 }
 
@@ -20,13 +20,33 @@ body {
     margin-left: 150px;
 }
 
-/* .heading::after {
-    content: "";
-} */
-
 .cities-section {
     margin-top: 35px;
 }
+
+.weather-card {
+    padding: 26px;
+    text-align: center;
+}
+
+.weather-card__title {
+    margin-bottom: 4px;
+    font-size: 22px;
+}
+
+.weather-card__icon {
+    font-size: 42px;
+    color: rgb(255, 255, 255, 0.7);
+    position: relative;
+    bottom: -3px;
+}
+
+.weather-card__deg {
+    color: rgb(255, 255, 255, 0.7);
+    margin-right: 9px;
+    font-size: 22px;
+}
+
 
 .cities {
     list-style: none;
@@ -40,9 +60,8 @@ body {
 
 .cities li {
     display: inline-block;
-    /* width: 50%; */
-    /* margin: 5px 0; */
     font-size: 22px;
+    font-weight: 300;
     line-height: 25.78px;
     height: 147px;
     border: 2px solid white;
