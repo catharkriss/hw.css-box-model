@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="weather-icons-master/css/weather-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap" rel="stylesheet">
     <title>Homework.Box model</title>
 </head>
 <body>
+    <header>
+        <div>
+            <h2 class="heading">CSS Weather Forecast <i class="wi wi-sunrise"></i></h2>
+        </div>
+    </header>
+    <main class="cities-section">
+        <ul class="cities">
+            <li class="lisabon weather-card">
+                <h2 class="weather-card__title">Lisbon</h2> 
+                <span class="weather-card__deg">21°C</span>
+                <i class="wi wi-day-sunny weather-card__icon"></i>
+            </li>
+            <li class="paris city weather-card">
+                <h2 class="weather-card__title">Paris</h2> 
+                <span class="weather-card__deg">11°C</span>
+                <i class="wi wi-night-sleet weather-card__icon"></i>
+            </li>
+            <li class="belgrade city weather-card">
+                <h2 class="weather-card__title">Belgrade</h2> 
+                <span class="weather-card__deg">15°C</span>
+                <i class="wi wi-day-cloudy weather-card__icon"></i>
+            </li>
+            <li class="venice city weather-card">
+                <h2 class="weather-card__title">Venice</h2> 
+                <span class="weather-card__deg">21°C</span>
+                <i class="wi wi-day-cloudy-high weather-card__icon"></i>
+            </li>
+            <li class="avive city weather-card">
+                <h2 class="weather-card__title">Tel-Avive</h2> 
+                <span class="weather-card__deg">32°C</span>
+                <i class="wi wi-hot weather-card__icon"></i>
+            </li>
+            <li class="cair city weather-card">
+                <h2 class="weather-card__title">Cair</h2> 
+                <span class="weather-card__deg">21°C</span>
+                <i class="wi wi-day-sunny weather-card__icon"></i>
+            </li>
+            <li class="york city weather-card">
+                <h2 class="weather-card__title">New-York</h2> 
+                <span class="weather-card__deg">17°C</span>
+                <i class="wi wi-day-sleet-storm weather-card__icon"></i>
+            </li>
+            <li class="dehli city weather-card">
+                <h2 class="weather-card__title">New-Delhi</h2> 
+                <span class="weather-card__deg">17°C</span>
+                <i class="wi wi-rain-wind weather-card__icon"></i>
+            </li>
+            <li class="francisco weather-card">
+                <h2 class="weather-card__title">San-Francisco</h2> 
+                <span class="weather-card__deg">15°C</span>
+                <i class="wi wi-day-cloudy weather-card__icon"></i>
+            </li>
+            <li class="tokyo city weather-card">
+                <h2 class="weather-card__title">Tokyo</h2> 
+                <span class="weather-card__deg">8°C</span>
+                <i class="wi wi-night-clear weather-card__icon"></i>
+            </li>
+            <li class="sydney weather-card">
+                <h2 class="weather-card__title">Sydney</h2> 
+                <span class="weather-card__deg">25°C</span>
+                <i class="wi wi-night-partly-cloudy weather-card__icon"></i>
+            </li>
+        </ul>
+        <div class="text">
+            <p>Have a nice day and don't forget umbrella if you are in New Delhi now!</p>
+        </div>
+    </main>
     
 </body>
 </html>
